@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pig Latin!</title>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/style/style.css">
+</head>
+<body>
+  <div class="translation">
+    <% if @word %>
+      <h3><%= @word %> is <span><%= @conversion %></span> in Pig Latin</h3>
+    <% end %>
+  </div>
+  <div class="wrapper">
+    <div class="container">
+      <h1>Translate a word into Pig Latin:</h1>
+      <form method="post" action="/">
+        <label for="word"></label>
+        <input type="text" id="word" name="word" placeholder="What do you want to translate?">
+        <input type="submit" id="submit" value="Submit">
+    </div>
+  </div>
+</body>
+</html>

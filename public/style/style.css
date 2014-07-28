@@ -1,0 +1,54 @@
+ /* *, *:after, *:before{
+  border: 1px solid red;
+  box-sizing: border-box;
+ } */
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h3{
+  color: #fff;
+}
+
+span{
+  color: pink;
+}
+
+body{
+  background: url('/img/pigs_fly.jpg');
+  background-size: 110%;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: rgba(0,0,0, 0.5);
+  margin-top: 15%;
+  padding: 5%;
+}
+
+#word{
+  height: 30px;
+  width: 200px;
+}
+
+#submit{
+  border-radius: 4px;
+  height: 30px;
+  width: 70px;
+  margin: 3% 8%;
+  background: pink;
+  font-weight: bold;
+}
+
+#submit:hover{
+  background: #ccc;
+}
+
+.translation{
+  width: 75%;
+  text-align: center;
+  margin: 2% auto;
+}
